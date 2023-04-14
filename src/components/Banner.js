@@ -92,9 +92,9 @@ justify-content: center;
 
 const JoiNow = styled.button`
 display: inline-block;
-background-color: ${props => props.theme.body};
+background-color: #ffdd00 ${props => props.theme.body};
 color: ${props => props.theme.text};
-outline: none;
+outline: 1px;
 border: none;
 font-weight: 600;
 font-size: ${props => props.theme.fontlg};

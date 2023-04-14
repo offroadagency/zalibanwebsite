@@ -2,13 +2,13 @@ import React, { lazy, Suspense } from 'react'
 import styled from 'styled-components'
 // import Banner from './Banner'
 import Logo from './Logo'
-
+import Appstore from '../Icons/Appstore'
 import Facebook from '../Icons/Facebook'
-import Instagram from '../Icons/Instagram'
 import Twitter from '../Icons/Twitter'
 import LinkedIn from '../Icons/LinkedIn'
 import Loading from './Loading'
-import medium from './Icons/medium'
+import Medium from '../Icons/Medium'
+import PlayStore from '../Icons/PlayStore'
 
 const Banner = lazy(() => import("./Banner"));
 
@@ -145,36 +145,44 @@ const Footer = () => {
     <Left> 
     <Logo />
     <IconList>
-    </a>
-      <a href="https://twitter.com/code_bucks" target='_blank' 
+      <a href="https://medium.com/@offroadstudios/from-games-to-digital-agency-to-games-to-nfts-to-games-3a042e7fcd94" target='_blank' 
       rel="noopener noreferrer"
       aria-label='medium'
       >
         <Medium />
-      <a href="http://facebook.com" target='_blank' 
+        </a>
+      <a href="https://www.facebook.com/offroadstudio" target='_blank' 
       rel="noopener noreferrer"
       aria-label='facebook'
       >
         <Facebook />
       </a>
-      <a href="https://www.instagram.com/code.bucks/" target='_blank' 
-      rel="noopener noreferrer"
-      aria-label='instagram'
-      >
-        <Instagram />
-      </a>
-      <a href="https://twitter.com/code_bucks" target='_blank' 
+
+      <a href="https://twitter.com/offroadstudios" target='_blank' 
       rel="noopener noreferrer"
       aria-label='twitter'
       >
         <Twitter />
       </a>
-      <a href="http://linkedin.com" target='_blank' 
+      <a href="https://pk.linkedin.com/company/offroad-studios?" target='_blank' 
       rel="noopener noreferrer"
       aria-label='linkedin'
       >
         <LinkedIn />
       </a>
+      <a href="https://apps.apple.com/us/developer/off-road-studios/id631326557" target='_blank' 
+      rel="noopener noreferrer"
+      aria-label='Appstore'
+      >
+        <Appstore />
+      </a>
+      <a href="https://play.google.com/store/apps/dev?id=4645564864318173740" target='_blank' 
+      rel="noopener noreferrer"
+      aria-label='PlayStore'
+      >
+        <PlayStore/>
+      </a>
+   
     </IconList>
     </Left>
     <MenuItems>
@@ -187,11 +195,11 @@ const Footer = () => {
       </Container>
       <Bottom>
         <span>
-          &copy; {new Date().getFullYear()} Offroad Srudios. All rights reserved.
+          &copy; {new Date().getFullYear()} Offroad Studios. All rights reserved.
         </span>
         <span>
-          Made with &#10084; by <a href="https://www.offroadstudios.com" target="_blank"  rel="noopener noreferrer">
-            Offroad Studios
+          Made  by <a href="https://www.offroadstudios.com" target="_blank"  rel="noopener noreferrer">
+            Offroad Studios for the &#10084; of web three
           </a>
         </span>
       </Bottom>

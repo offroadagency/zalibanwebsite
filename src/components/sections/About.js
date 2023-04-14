@@ -167,7 +167,7 @@ const About = () => {
         Our mission is to bridge the gap between the Web 3 & the traditional gaming world. With advancements in Web 3 and its implementation by Unity in the recent past, we plan on integrating web3 and NFTS in our game in such a way that the users not only have a real-time gaming experience but it is easy for them to adapt to the web3. ## One of our primary goals is to attract gamers who are currently reluctant to step in to web 3.        </SubTextLight>
         <ButtonContainer>
         <ThemeProvider theme={dark}>
-        <Button text="JOIN OUR DISCORD" link="https://google.com" />
+        <Button text="JOIN OUR DISCORD" link="https://discord.gg/uqRFNbJcbv" />
         </ThemeProvider>
         </ButtonContainer>
          </Box>

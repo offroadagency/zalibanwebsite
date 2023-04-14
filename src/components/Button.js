@@ -7,7 +7,7 @@ const Btn = styled.button`
 display: inline-block;
 background-color: ${props => props.theme.text};
 color: ${props => props.theme.body};
-outline: none;
+outline: black;
 border: none;
 
 font-size: ${props => props.theme.fontmd};
@@ -16,6 +16,8 @@ border-radius: 50px;
 cursor: pointer;
 transition: all 0.2s ease;
 position: relative;
+background-color: #0000ff;
+
 &:hover{
     transform: scale(0.9);
 }
@@ -26,7 +28,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    border: 2px solid ${props => props.theme.text};
+    border: 1px solid ${props => props.theme.text};
     width: 100%;
     height: 100%;
     border-radius: 50px;
