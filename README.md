@@ -8,6 +8,10 @@ This is the official repository for the website of Zaliban, an upcoming game tha
 
 The website can be accessed at [www.zaliban.com](http://www.zaliban.com). The website is being designed to be visually appealing and user-friendly, with an emphasis on providing a seamless user experience.
 
+## NFT COLLECTION
+
+https://opensea.io/collection/zaliban
+
 ## Assets
 
 All assets related to the website, including images, videos, and audio files, are stored in the `src/assets` directory. The assets have been optimized for web use to ensure fast loading times and an optimal browsing experience.
