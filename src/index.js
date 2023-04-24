@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
+import './index.css';
 import App from './App';
 import '../node_modules/normalize.css/normalize.css';
 import { BrowserRouter } from 'react-router-dom';
@@ -10,7 +10,12 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
+    {/* <MoralisProvider */}
+          {/* serverUrl={process.env.REACT_APP_SERVER_URL ?? ''} */}
+          {/* appId={process.env.REACT_APP_APPLICATION_ID ?? ''} */}
+        {/* > */}
+        <App />
+      {/* </MoralisProvider> */}
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

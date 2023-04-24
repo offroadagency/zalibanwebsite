@@ -182,9 +182,9 @@ const scrollTo = (id) => {
             </div>
           </MenuItem>
         </Menu>
-          <div className="desktop">
-          <Button text="Connect Wallet" link="https://opensea.io/collection/zaliban" />
-          </div>
+        <div className="desktop">
+        <Button text="Connect Wallet" link="https://opensea.io/collection/zaliban" />
+</div>
 
       </NavBar>
     </Section>

@@ -8,7 +8,6 @@ import img4 from '../../assets/Nfts/bighead-3.png';
 import img5 from '../../assets/Nfts/bighead-4.png';
 import img6 from '../../assets/Nfts/bighead-5.png';
 import img7 from '../../assets/Nfts/bighead-6.png';
-import img8 from '../../assets/Nfts/bighead-7.png';
 import Loading from '../Loading';
 // import ConfettiComponent from '../Confetti';
 
